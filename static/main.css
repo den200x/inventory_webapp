@@ -1,0 +1,34 @@
+html,body{
+    background: url("https://i.imgur.com/MJAkxbh.png");
+}
+#head{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-weight: 300;
+    font: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h1{
+    color: plum;
+    text-transform: capitalize;
+
+}
+.box-container{
+    display: flex;
+    top: 10px;
+    height: 1000px;
+    flex-direction: row;
+}
+#box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
+    
+  }
+
+#box-2 {
+    background-color: orangered;
+    width: 75%;
+    height: 100%;
+    padding: 10px;
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../static/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <title>Jacket Inventory</title>
+</head>
+<body>
+    <div id="header">
+        <h1 class="h1">CHECK THIS OUT!</h1>
+    </div> 
+    <div class="box-container">
+        <div id="box-1">    
+            <ul class="nav bd-sidenev">
+                <a class="bd-toc-link" href={{url_for(Jackets)}}>Jacket1</a>
+            </ul>
+            <div id=info>
+                    <img {% url '${some-url-name}' arg %}
+            </div>
+        </div>
+        <div id="box-2">
+            <div id=user_entry>
+                <form action="sumbit" method="post">
+                    <div class="atribute1">
+                        <label for="jacket_color">Color</label>
+                        <input type="color" placeholder="Enter Color">
+                    </div>
+                    <div class="atribute2">
+                            <label for="jacket_size">Size</label>
+                            <input type="color" placeholder="Enter Color">
+                    </div>
+                    <div class="atribute3">
+                            <label for="jacket_material">Material</label>
+                            <input type="color" placeholder="Enter Color">
+                    </div>
+                    <div class="atribute4">
+                            <label for="jacket_style">Style</label>
+                            <input type="color" placeholder="Enter Color">
+                    </div>
+                    <div class="atribute5">
+                            <label for="jacket_pic">Image</label>
+                            <input type="file" class="form-control-file" id="upload_img">
+                    </div>
+                    <button type="submit" class="btn">PUT</button>
+                    <button type="search" class="btn">GET</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
